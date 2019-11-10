@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/view_page"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/r1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="今日"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawableTop="@drawable/jinri1"
+            android:button="@null"
+            android:padding="10dp"/>
+        <RadioButton
+            android:id="@+id/r2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="媒体"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawableTop="@drawable/meiti1"
+            android:button="@null"
+            />
+        <RadioButton
+            android:id="@+id/r3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="数据"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawableTop="@drawable/shuju1"
+            android:button="@null" />
+    </RadioGroup>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/normal_layout"
+        android:title="平铺"/>
+    <item android:title="瀑布流"
+        android:id="@+id/special_layout"/>
+</menu>
